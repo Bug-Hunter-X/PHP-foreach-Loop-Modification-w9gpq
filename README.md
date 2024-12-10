@@ -1,0 +1,1 @@
+This repository demonstrates a common error in PHP when using foreach loops. Modifying the array elements within a foreach loop directly alters the original array. This can lead to unexpected results and is a frequent source of bugs.  The solution illustrates how to avoid this using array_map or creating a copy of the array before iteration.
